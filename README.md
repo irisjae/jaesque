@@ -1,5 +1,7 @@
 # The Jay-esque Style
 
+### *this is javascript*
+
 ## Fantastical bits
 * Dont add `;` at the end
 * If your statement is impure; mark it with a `;` in the front!
@@ -9,8 +11,17 @@
 * No function statements
 * Make your functions generic. Use `x`, `y`, `z`, `w`, `a`, `b`, `c`, ..., for the parameters (Unless they are really specific, obviously unreusable)
 * Add spaces between tokens
-* Mark your sentence with the one important prefix (if its in a phrase), hide the rest on the previous line. Encourage the leading member to follow the `[` or `(`
-    * e.g.
+* Avoid suffixes smaller than the prefix. It is undiscoverable.
+    * e.g. This is bad. The significant call operator `()` is undiscoverable! Is this a function or the value?
+```
+var result = (x => {
+   ...
+   var computation = step_1 + step_2
+   return result
+}) ()
+```
+* Mark your sentence with the one significant prefix (if its in a phrase), hide the rest on the previous line. Encourage the leading member to follow the `[` or `(`
+    * e.g. (the prefix here is `o`)
 ```
 var result = Oo (something,
   o (x => x .parent),
