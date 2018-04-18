@@ -3,11 +3,13 @@
 ### *this is javascript*
 
 ## Fantastical bits
-* Dont add `;` at the end
-* If your statement is impure; mark it with a `;` in the front!
-* Use arrow functions, and only arrow functions!
+* Put each statement on its own line(s)
+* Don't add `;` at the end of your statements
+* If your statement is impure; mark it with a `;;` in the front!
+    * e.g. No `console .log (x)`. It's impure, so `;; console .log (x)`
 * If your function is impure; make it `{{}}`!
-    * e.g. No `x => console .log (x)`. It's impure, so `x => {{ ; console .log (x) }}`
+    * e.g. No `x => console .log (x)`. It's impure, so `x => {{ ;; console .log (x) }}`
+* Don't use `this`, use `require ('thiss')`
 * No function statements
 * Make your functions generic. Use `x`, `y`, `z`, `w`, `a`, `b`, `c`, ..., for the parameters (Unless they are really specific, obviously unreusable)
 * Add spaces between tokens
@@ -42,6 +44,7 @@ var q = [ document .querySelector ('fire')
 * Use snake_case (since hyphen-case does not work)
 * Do add a space before `.`. The property is a word!
     * e.g. `document .body .style .backgroundImage = 'url(doge.png)'`
+* Use arrow functions, and only arrow functions!
 * Arrow functions with one parameter, take no brackets
 * Use `var`, and `var` only
 * Try to not mutate `var`s
