@@ -5,10 +5,10 @@
 ## Fantastical bits
 * Put each statement on its own line(s)
 * Don't add `;` at the end of your statements
-* If your statement is impure; mark it with a `;;` in the front!
+* If your statement is impure; mark it with a `;` in the front!
     * e.g. No `console .log (x)`. It's impure, so `;; console .log (x)`
-* If your function is impure; make it `{{}}`!
-    * e.g. No `x => console .log (x)`. It's impure, so `x => {{ ;; console .log (x) }}`
+* If your function is impure; make it `{ ; }`!
+    * e.g. No `x => console .log (x)`. It's impure, so `x => { ; console .log (x) }`
 * Don't use `this`, use `require ('thiss')`
 * No function statements
 * Make your functions generic. Use `x`, `y`, `z`, `w`, `a`, `b`, `c`, ..., for the parameters (Unless they are really specific, obviously unreusable)
