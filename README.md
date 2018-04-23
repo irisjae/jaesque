@@ -13,7 +13,7 @@
 - Don't use `this`, use `require ('thiss')`
 - No function statements
 - Make your functions generic. Use `x`, `y`, `z`, `t`, `u`, `v`, `w`, q`, `r`, s`, ... for the parameters (Unless they are really specific, obviously unreusable)
-   - _What is this?_ basically the 'ABC' song triplets/quadraplets/quinteplets
+   - _What is this?_ basically the 'ABC' song triplets/quadruplets/quintuplets
 - Add spaces between tokens
 - Avoid suffixes smaller than the prefix. It is undiscoverable.
     - e.g. This is bad. The significant call operator `()` is undiscoverable! Is this a function or the value?
