@@ -1,0 +1,14 @@
+{
+  "name": "jay-esque",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irisjay/jay-esque.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irisjay/jay-esque/issues"
+  },
+  "homepage": "https://github.com/irisjay/jay-esque#readme"
+}
