@@ -1,4 +1,4 @@
-# The Jay-esque Style
+# The Jayesque Style
 
 ### *this is javascript*
 
