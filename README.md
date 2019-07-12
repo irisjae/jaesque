@@ -6,10 +6,10 @@
 - Put each statement on its own line(s)
 - Don't add `;` at the end of your statements
 - If your statement is impure; mark it with a `;` in the front!
-    - _Why?_ Javascript expressions always play well with Automatic Semi-colon Insertion. It is the prefixes in statements which potentially cause problems (e.g. `hello () \n [] .forEach (...)` on the next line being confused with `hello () [] .forEach`, which gives errors like `Unexpected token ]`). So we can safely escape statements, and only statements! And the only statements that are not 'impure' are variable assignments, which also respect Automatic Semi-colon Insertion.
-    - e.g. No `console .log (x)`. It's impure, so `; console .log (x)`
-- If your function is impure; make it `{ ; }`!
-    - e.g. No `x => console .log (x)`. It's impure, so `x => { ; console .log (x) }`
+    - _Why?_ Javascript expressions always play well with Automatic Semi-colon Insertion. It is the prefixes in statements which potentially cause problems (e.g. `hello () \n [] .forEach (...)` on the next line is confused with `hello () [] .forEach`, which gives errors like `Unexpected token ]`). So we can safely escape statements, and only statements! And the only statements that are not 'impure' are variable assignments, which also respect Automatic Semi-colon Insertion.
+    - e.g. No `console .log (x)`. It's impure, so `;console .log (x)`
+- If your function is impure; make it `{;}`!
+    - e.g. No `x => console .log (x)`. It's impure, so `x => {;console .log (x)}`
 - Don't use `this`, use `require ('thiss')`
 - No function statements
 - Make your functions generic. Use `x`, `y`, `z`, `t`, `u`, `v`, `w`, q`, `r`, s`, ... for the parameters (Unless they are really specific, obviously unreusable)
